@@ -1,0 +1,65 @@
+Problem Statement
+
+Given two strings:
+
+word1
+word2
+
+Find the minimum number of operations required to convert word1 into word2.
+
+Allowed operations:
+
+Insert a character
+Delete a character
+Replace a character
+Sample Input
+Plain Text
+horse
+ros
+Sample Output
+Plain Text
+3
+Explanation
+
+Convert:
+
+Plain Text
+horse → ros
+Step 1
+
+Replace:
+
+Plain Text
+horse
+↓
+rorse
+
+Operations = 1
+
+Step 2
+
+Delete:
+
+Plain Text
+rorse
+↓
+rose
+``
+
+Operations = 2
+
+Step 3
+
+Delete:
+
+Plain Text
+rose
+↓
+ros
+
+Operations = 3
+
+Therefore:
+
+Plain Text
+Answer = 3

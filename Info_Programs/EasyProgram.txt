@@ -1,0 +1,108 @@
+1. Two Sum
+------------------------------------------
+Problem Statement
+
+Given an array of integers and a target value, find the indices of two numbers whose sum equals the target.
+
+You may assume that exactly one solution exists.
+
+Sample Input
+Plain Text
+4
+2 7 11 15
+9
+Sample Output
+Plain Text
+0 1
+Explanation
+Plain Text
+2 + 7 = 9
+ 
+
+Indices:
+
+Plain Text
+0 and 1
+
+2. Contains Duplicate
+--------------------------------------
+Problem Statement
+
+Given an array of integers, determine whether any value appears more than once.
+
+Sample Input
+Plain Text
+5
+1 2 3 1 4
+Sample Output
+Plain Text
+YES
+Explanation
+Plain Text
+1 appears twice.
+
+3. Valid Anagram
+--------------------------------------------------------
+Problem Statement
+
+Given two strings, determine whether one string is an anagram of the other.
+
+An anagram contains exactly the same characters with the same frequencies.
+
+Sample Input
+Plain Text
+listen
+silent
+Sample Output
+Plain Text
+YES
+Explanation
+Plain Text
+Both words contain:
+ 
+l i s t e n
+
+4. Single Number
+----------------------------------------------
+Problem Statement
+
+Every number appears twice except one number.
+
+Find the number that appears only once.
+
+Sample Input
+Plain Text
+5
+2 1 2 4 1
+Sample Output
+Plain Text
+4
+Explanation
+Plain Text
+2 appears twice
+1 appears twice
+ 
+Only 4 appears once
+
+5. Valid Palindrome
+-----------------------------------------------------------
+Problem Statement
+
+Given a string, determine whether it is a palindrome after:
+
+Converting uppercase to lowercase
+Removing non-alphanumeric characters
+Sample Input
+Plain Text
+A man, a plan, a canal: Panama
+Sample Output
+Plain Text
+YES
+Explanation
+
+After cleaning:
+
+Plain Text
+amanaplanacanalpanama
+
+Reads the same from both sides.
